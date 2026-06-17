@@ -103,3 +103,66 @@ interview_reports
 - weaknesses
 - recommendation (hire / reject / maybe)
 - created_at
+
+
+NOTE: Above schemas needs to be updated as the project goes
+
+REFACTOR: Update the project folder structure to make it more organized and scalable
+
+example folder structure:
+  
+app/
+│
+├── main.py
+│
+├── core/
+│   ├── config.py
+│   ├── security.py
+│   ├── database.py
+│   ├── dependencies.py
+│   └── exceptions.py
+│
+├── api/
+│   ├── deps.py
+│   ├── router.py
+│   └── endpoints/
+│       ├── auth.py
+│       ├── users.py
+│       ├── jobs.py
+│       └── applications.py
+│
+├── models/
+│   ├── user.py
+│   ├── job.py
+│   └── application.py
+│
+├── schemas/
+│   ├── user.py
+│   ├── job.py
+│   └── application.py
+│
+├── services/
+│   ├── auth_service.py
+│   ├── user_service.py
+│   └── job_service.py
+│
+├── repositories/
+│   ├── user_repository.py
+│   ├── job_repository.py
+│   └── application_repository.py
+│
+├── middleware/
+│   ├── logging.py
+│   └── audit.py
+│
+├── utils/
+│   ├── email.py
+│   ├── pagination.py
+│   └── helpers.py
+│
+├── tests/
+│
+└── alembic/
+
+
+  

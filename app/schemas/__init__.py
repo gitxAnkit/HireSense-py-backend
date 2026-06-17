@@ -1,0 +1,9 @@
+from app.schemas.skill import SkillBase, SkillCreate, Skill
+from app.schemas.user import UserBase, UserCreate, User
+from app.schemas.candidate import CandidateProfileBase, CandidateProfileCreate, CandidateProfile
+from app.schemas.company import CompanyBase, CompanyCreate, Company
+from app.schemas.recruiter import RecruiterBase, RecruiterCreate, Recruiter
+from app.schemas.job import JobBase, JobCreate, Job
+from app.schemas.application import ApplicationBase, ApplicationCreate, Application
+from app.schemas.interview import InterviewBase, InterviewCreate, Interview
+from app.schemas.interview_report import InterviewReportBase, InterviewReportCreate, InterviewReport
